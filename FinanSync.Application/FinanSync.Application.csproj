@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\FinanSync.Core\FinanSync.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Mappings\" />
+    <Folder Include="UseCases\Auth\" />
+    <Folder Include="UseCases\CreditCards\" />
+    <Folder Include="UseCases\Credits\" />
+    <Folder Include="UseCases\Debts\" />
+    <Folder Include="UseCases\Expenses\" />
+    <Folder Include="UseCases\Investments\" />
+    <Folder Include="UseCases\MoneyBox\" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

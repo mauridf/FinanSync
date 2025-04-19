@@ -1,0 +1,23 @@
+{
+    "profiles": {
+        "FinanSync.API": {
+            "commandName": "Project",
+            "dotnetRunMessages": true,
+            "launchBrowser": true,
+            "launchUrl": "swagger/index.html", // Adicione o path completo
+            "applicationUrl": "http://localhost:5162;https://localhost:7023",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        "IIS Express": {
+            "commandName": "IISExpress",
+            "launchBrowser": true,
+            "launchUrl": "swagger/index.html", // Adicione também para IIS Express
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+    },
+    "$schema": "https://json.schemastore.org/launchsettings.json"
+}
